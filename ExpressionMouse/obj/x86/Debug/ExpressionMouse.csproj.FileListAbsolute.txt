@@ -1,0 +1,11 @@
+C:\Users\chacc_000\Source\Repos\BoardwithKinect\ExpressionMouse\bin\Debug\FaceMouseConfig.exe
+C:\Users\chacc_000\Source\Repos\BoardwithKinect\ExpressionMouse\bin\Debug\FaceMouseConfig.pdb
+C:\Users\chacc_000\Source\Repos\BoardwithKinect\ExpressionMouse\bin\Debug\Microsoft.Kinect.dll
+C:\Users\chacc_000\Source\Repos\BoardwithKinect\ExpressionMouse\bin\Debug\Microsoft.Kinect.Toolkit.FaceTracking.dll
+C:\Users\chacc_000\Source\Repos\BoardwithKinect\ExpressionMouse\bin\Debug\Microsoft.Kinect.xml
+C:\Users\chacc_000\Source\Repos\BoardwithKinect\ExpressionMouse\obj\x86\Debug\ExpressionMouse.csprojResolveAssemblyReference.cache
+C:\Users\chacc_000\Source\Repos\BoardwithKinect\ExpressionMouse\obj\x86\Debug\ExpressionMouse.ExpressionMouse.resources
+C:\Users\chacc_000\Source\Repos\BoardwithKinect\ExpressionMouse\obj\x86\Debug\FaceMouseConfig.Properties.Resources.resources
+C:\Users\chacc_000\Source\Repos\BoardwithKinect\ExpressionMouse\obj\x86\Debug\ExpressionMouse.csproj.GenerateResource.Cache
+C:\Users\chacc_000\Source\Repos\BoardwithKinect\ExpressionMouse\obj\x86\Debug\FaceMouseConfig.exe
+C:\Users\chacc_000\Source\Repos\BoardwithKinect\ExpressionMouse\obj\x86\Debug\FaceMouseConfig.pdb
