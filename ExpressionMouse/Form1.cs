@@ -16,7 +16,7 @@ using System.Diagnostics;
 using System.Xml.Serialization;
 using System.IO;
 using System.Xml;
-
+using Board;
 namespace ExpressionMouse
 {
     public partial class ExpressionMouse : Form
@@ -115,7 +115,7 @@ namespace ExpressionMouse
                 //Kinect.SkeletonStream.EnableTrackingInNearRange = true;
                 //Kinect.DepthStream.Range = DepthRange.Near;
                 Kinect.SkeletonStream.TrackingMode = SkeletonTrackingMode.Seated;
-                File.AppendAllText("init.txt",DateTime.Now+" - Kinect sensor initialized successfully.\n");
+                File.AppendAllText("init.txt", DateTime.Now + " - Kinect sensor initialized successfully.\n");
             }
             catch (Exception e)
             {
@@ -130,6 +130,8 @@ namespace ExpressionMouse
             Workerthread.Start();
             btStart.Enabled = false;
             btStop.Enabled = true;
+            Form1 board = new Form1();
+            board.Show();
         }
 
         private void SetPictures(Bitmap leftEye, Bitmap rightEye)
