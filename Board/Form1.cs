@@ -33,6 +33,9 @@ namespace Board
         {
             InitializeComponent();
             witdh = 10;
+            this.TopMost = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
 
