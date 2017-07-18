@@ -1,3 +1,7 @@
 23.05.2014 14:43:59 - Error during Kinect initialization.
 23.05.2014 14:45:07 - Kinect sensor initialized successfully.
 17.01.2017 22:44:39 - Error during Kinect initialization.
+17/07/2017 23:29:04 - Kinect sensor initialized successfully.
+17/07/2017 23:29:53 - Kinect sensor initialized successfully.
+18/07/2017 0:09:56 - Kinect sensor initialized successfully.
+18/07/2017 0:14:50 - Kinect sensor initialized successfully.

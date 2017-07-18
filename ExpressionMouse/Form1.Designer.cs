@@ -70,6 +70,7 @@
             this.ttClickDelay = new System.Windows.Forms.ToolTip(this.components);
             this.btReset = new System.Windows.Forms.Button();
             this.nudClickDelay = new System.Windows.Forms.NumericUpDown();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbLeft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudConvolutionFilterLength)).BeginInit();
@@ -112,7 +113,7 @@
             this.btStart.Name = "btStart";
             this.btStart.Size = new System.Drawing.Size(105, 43);
             this.btStart.TabIndex = 2;
-            this.btStart.Text = "Iniciar";
+            this.btStart.Text = "Iniciar con ojos";
             this.btStart.UseVisualStyleBackColor = true;
             this.btStart.Click += new System.EventHandler(this.btStart_Click);
             // 
@@ -597,11 +598,22 @@
             0,
             0});
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(581, 452);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(105, 43);
+            this.button1.TabIndex = 53;
+            this.button1.Text = "Iniciar con Manos";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // ExpressionMouse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(824, 507);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.nudClickDelay);
             this.Controls.Add(this.btReset);
             this.Controls.Add(this.lbAction);
@@ -709,6 +721,7 @@
         private System.Windows.Forms.ToolTip ttClickDelay;
         private System.Windows.Forms.Button btReset;
         private System.Windows.Forms.NumericUpDown nudClickDelay;
+        private System.Windows.Forms.Button button1;
     }
 }
 

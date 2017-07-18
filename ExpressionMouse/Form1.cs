@@ -14,7 +14,6 @@ using Microsoft.Kinect.Toolkit;
 using Microsoft.Kinect.Toolkit.FaceTracking;
 using System.Diagnostics;
 using System.Xml.Serialization;
-using System.IO;
 using System.Xml;
 using Board;
 namespace ExpressionMouse
@@ -76,6 +75,7 @@ namespace ExpressionMouse
             }
             catch (Exception e)
             {
+                System.Windows.MessageBox.Show("Error Message:\n" + e.ToString());
             }
             finally
             {
@@ -742,6 +742,11 @@ namespace ExpressionMouse
         private void ttClickDelay_Popup(object sender, PopupEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DrawingwithSkeleton.MainWindow drawingWindow = new DrawingwithSkeleton.MainWindow();
         }
     }
 }
